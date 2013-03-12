@@ -1,0 +1,9 @@
+<script>
+	$(".tagManager").tagsManager({
+			prefilled: $('#{{tagListId}}').attr('value').split(','),
+			hiddenTagListName: '{{ tagListName }}',
+			hiddenTagListId: '{{ tagListId }}',
+			typeahead: true,
+			typeaheadAjaxSource: "{{ ajaxPath }}?query=",
+		});
+</script>
