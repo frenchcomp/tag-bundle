@@ -23,7 +23,7 @@
     "target-dir": "CMedia/Bundle/TagBundle",
     "scripts": {
     "post-update-cmd": [
-        "cd CMedia\Bundle\TagBundle && git submodule update --init"
+        "cd CMedia\\Bundle\\TagBundle && git submodule update --init"
     ]
 }
 }
