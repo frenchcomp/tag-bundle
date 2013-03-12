@@ -9,8 +9,6 @@
  * file that was distributed with this source code.
  */
 
-use Doctrine\Common\Collections\ArrayCollection;
-
 namespace CMedia\Bundle\TagBundle\Entity\Interfaces;
 
 /**
@@ -23,7 +21,7 @@ interface Taggable
 {
 	function getTags();
 
-	function setTags(ArrayCollection $tags);
+	function setTags(\Doctrine\Common\Collections\ArrayCollection $tags);
 
 	function getTagString();
 
