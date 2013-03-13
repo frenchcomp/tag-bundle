@@ -306,8 +306,10 @@ The library depends on jquery 8.2 and bootstrap plugin lib.
 <!-- in form -->
 <input id="tag-manager" type="text" name="tags" autocomplete="off" data-provide="typeahead" placeholder="Tags" class="tagManager input-small"/>
 
+<!-- in your stylesheets -->
 <link rel="stylesheet" type="text/css" href="{{ asset('bundles/cmediatag/css/bootstrap-tagmanager.css') }}">
 
+<!-- in your javascripts -->
 <script type="text/javascript" src="{{ asset('bundles/cmediatag/js/bootstrap-tagmanager.js') }}"></script>
 
 {{ include('CMediaTagBundle::script.html.twig', {'tagManagerId': 'tagManager', 'tagListId': 'acme_demobundle_posttype_tagString', 'tagListName': 'acme_demobundle_posttype[tagString]', 'ajaxPath': ''}) }}
