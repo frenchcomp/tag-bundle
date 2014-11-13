@@ -24,7 +24,7 @@
         "symfony/framework-bundle":  ">=2.0.0"
     },
     "autoload": {
-        "psr-0": { "CMedia\\Bundle\\TagBundle": "" }
+        "psr-0": { "UniAlteri\\Bundle\\TagBundle": "" }
     },
     "target-dir": "UniAlteri/Bundle/TagBundle"
 }

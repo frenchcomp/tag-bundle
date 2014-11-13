@@ -9,7 +9,7 @@
 
 ```php
 // ...
-new CMedia\Bundle\TagBundle\CMediaTagBundle(), 
+new UniAlteri\Bundle\TagBundle\UniAlteriTagBundle(), 
 // ...
 ```
 
@@ -23,8 +23,8 @@ namespace Acme\DemoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
-use CMedia\Bundle\TagBundle\Entity\Interfaces\Taggable;
-use CMedia\Bundle\TagBundle\Assistant\TagAssistant;
+use UniAlteri\Bundle\TagBundle\Entity\Interfaces\Taggable;
+use UniAlteri\Bundle\TagBundle\Assistant\TagAssistant;
 
 /**
  * Post
@@ -158,7 +158,7 @@ class Post implements Taggable
 namespace Acme\DemoBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use CMedia\Bundle\TagBundle\Entity\Interfaces\TagContainable;
+use UniAlteri\Bundle\TagBundle\Entity\Interfaces\TagContainable;
 
 /**
  * Tag
@@ -296,7 +296,7 @@ public function createAction(Request $request)
 }
 ```
 
-### CMediaTagBundle comes with builting js TagManager library 
+### UniAlteriTagBundle comes with builting js TagManager library 
 The library depends on jquery 8.2 and bootstrap plugin lib. 
 *Note:* You can use your preferred library instead. Also you can use text filed for ```$tagString``` in PostType.php
 
@@ -312,4 +312,4 @@ The library depends on jquery 8.2 and bootstrap plugin lib.
 <!-- in your javascripts -->
 <script type="text/javascript" src="{{ asset('bundles/cmediatag/js/bootstrap-tagmanager.js') }}"></script>
 
-{{ include('CMediaTagBundle::script.html.twig', {'tagManagerId': 'tagManager', 'tagListId': 'acme_demobundle_posttype_tagString', 'tagListName': 'acme_demobundle_posttype[tagString]', 'ajaxPath': ''}) }}
+{{ include('UniAlteriTagBundle::script.html.twig', {'tagManagerId': 'tagManager', 'tagListId': 'acme_demobundle_posttype_tagString', 'tagListName': 'acme_demobundle_posttype[tagString]', 'ajaxPath': ''}) }}

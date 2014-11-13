@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the CMedia Bundle
+ * This file is part of the UniAlteri Bundle
  *
  * (c) Alexandr Jeliuc <jeliucalexandr@gmail.com>
  *
@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace CMedia\Bundle\TagBundle\Assistant;
+namespace UniAlteri\Bundle\TagBundle\Assistant;
 
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\Query\Expr;
 use Doctrine\Common\Collections\ArrayCollection;
 
-use Cmedia\Bundle\TagBundle\Entity\Interfaces\TagContainable;
-use Cmedia\Bundle\TagBundle\Entity\Interfaces\Taggable;
+use UniAlteri\Bundle\TagBundle\Entity\Interfaces\TagContainable;
+use UniAlteri\Bundle\TagBundle\Entity\Interfaces\Taggable;
 
 /**
  * TagAssistant
  * 
  * @author Alexandr Jeliuc <jeliucalexandr@gmail.com>
- * @package CMedia\Bundle\TagBundle\Assistant
+ * @package UniAlteri\Bundle\TagBundle\Assistant
  * @license MIT http://opensource.org/licenses/MIT
  * @copyright Alexandr Jeliuc <jeliucalexandr@gmail.com>
  *
@@ -35,7 +35,7 @@ class TagAssistant
 	protected $em;
 
 	/**
-	 * @var \Cmedia\TagBundle\Entity\Interfaces\Taggable
+	 * @var \UniAlteri\Bundle\TagBundle\Entity\Interfaces\Taggable
 	 */
 	protected $taggable;
 

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace CMedia\Bundle\TagBundle\Entity\Interfaces;
+namespace UniAlteri\Bundle\TagBundle\Entity\Interfaces;
 
 /**
  * @author Alexandr Jeliuc <jeliucalexandr@gmail.com>
- * @package CMedia\Bundle\TagBundle\Entity\Interfaces
+ * @package UniAlteri\Bundle\TagBundle\Entity\Interfaces
  * @license MIT http://opensource.org/licenses/MIT
  * @copyright Alexandr Jeliuc <jeliucalexandr@gmail.com>
  */

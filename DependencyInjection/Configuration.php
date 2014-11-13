@@ -1,6 +1,6 @@
 <?php
 
-namespace CMedia\Bundle\TagBundle\DependencyInjection;
+namespace UniAlteri\Bundle\TagBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
