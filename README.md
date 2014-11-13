@@ -313,4 +313,3 @@ The library depends on jquery 8.2 and bootstrap plugin lib.
 <script type="text/javascript" src="{{ asset('bundles/cmediatag/js/bootstrap-tagmanager.js') }}"></script>
 
 {{ include('CMediaTagBundle::script.html.twig', {'tagManagerId': 'tagManager', 'tagListId': 'acme_demobundle_posttype_tagString', 'tagListName': 'acme_demobundle_posttype[tagString]', 'ajaxPath': ''}) }}
-```
