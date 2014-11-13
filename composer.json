@@ -1,17 +1,23 @@
 {
-    "name": "cmedia/tag-bundle",
+    "name": "unialteri/tag-bundle",
+    "version": "0.9.2",
     "type": "symfony-bundle",
     "description": "Tag bundle for symfony2.",
     "keywords": ["php", "symfony2", "tag", "taggable"],
     "homepage": "https://github.com/ajeliuc",
     "license": "MIT",
     "authors": [
-    {
-        "name": "Alexandr Jeliuc",
-        "email": "jeliucalexandr@gmail.com",
-        "homepage": "http://ajeliuc.blogspot.com/",
-        "role": "Developer"
-    }
+        {
+            "name": "David Lenglos",
+            "email": "d.lenglos@uni-alteri.com",
+            "role":"Developer"
+        },
+        {
+            "name": "Alexandr Jeliuc",
+            "email": "jeliucalexandr@gmail.com",
+            "homepage": "http://ajeliuc.blogspot.com/",
+            "role": "Developer"
+        }
     ],
     "require": {
         "php":                       ">=5.3.2",
@@ -20,5 +26,5 @@
     "autoload": {
         "psr-0": { "CMedia\\Bundle\\TagBundle": "" }
     },
-    "target-dir": "CMedia/Bundle/TagBundle"
+    "target-dir": "UniAlteri/Bundle/TagBundle"
 }
