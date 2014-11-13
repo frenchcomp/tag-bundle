@@ -60,7 +60,7 @@ class TagAssistant
 	 */
 	public function __construct($doctrine, $delimiter = ',')
 	{
-		$this->em = $doctrine->getEntityManager();
+		$this->em = $doctrine->getManager();
 		
 		$this->delimiter = $delimiter;
 		
