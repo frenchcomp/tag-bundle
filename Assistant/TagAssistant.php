@@ -154,15 +154,17 @@ class TagAssistant
 
 	/**
 	 * @param array $oldTags
+     * @return array
 	 */
 	protected function getOldTagNames($oldTags)
 	{
 		$oldTagNames = array();
 
-		foreach($oldTags as $oldTag)
-		{
-			$oldTagNames[] = $oldTag->getName();
-		}
+        if (!empty($oldTags)) {
+            foreach ($oldTags as $oldTag) {
+                $oldTagNames[] = $oldTag->getName();
+            }
+        }
 
 		return $oldTagNames;
 	}
